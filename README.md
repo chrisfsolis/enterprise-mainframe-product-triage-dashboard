@@ -37,5 +37,14 @@ cd dashboard
 npm run build
 ```
 
+
+## Vercel deployment settings
+- Project root: `dashboard`
+- Framework preset: `Vite`
+- Install command: `npm ci` (if `package-lock.json` exists) or `npm install`
+- Build command: `npm run build`
+- Output directory: `dist`
+- Live Demo: TODO - add Vercel deployment URL
+
 ## Disclaimer
 All data in this repository is fictional and public/demo-safe. This project does **not** contain proprietary information and does **not** represent any specific company’s internal roadmap.
